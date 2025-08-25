@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologias Web</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #BCE5FF;
+            background: linear-gradient(to bottom, #d9f0ff, #8ed0f9);
+            height: 250vh;
+            margin: 0;
+            color: aliceblue;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .cabecalho {
+            text-align: center;
+            background-color: #015C91;
+            padding: 20px;
+            margin-top: auto;
+        }
+
+        .bloco01 {
+            color: #015C91;
+            font-size: 70px;
+            margin: auto;
+            text-align: center;
+            line-height: 85px;
+            margin-top: 80px;
+        }
+        .textinho{
+            color: #4395c4;
+            font-size: 25px;
+            margin: auto;
+            text-align: center;
+            line-height: 30px;
+            margin-top: 80px;
+        }
+
+        .formtexto {
+            color: #daf1ff;
+            font-size: 30px;
+            margin: auto;
+            text-align: center;
+            line-height: 85px;
+            margin-top: 15px;
+        }
+
+
+        .formcaixa {
+            background-color: #015C91;
+            width: 900px;
+            margin: 0 auto;
+            margin-top: 70px;
+            text-align: center;
+            padding-top: 1px;
+            padding-bottom: 50px;
+            border-radius: 75px;
+        }
+
+        .designinscricao {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        input {
+            width: 200px;
+            padding: 10px;
+            border-radius: 44px;
+            font-family: 'Montserrat', sans-serif;
+            border: 2px solid #0058b0;
+        }
+
+        .genero input {
+            width: 30px;
+        }
+
+        .genero p {
+            font-size: 20px;
+            color: #8ed0f9;
+        }
+
+        select {
+            width: 200px;
+            padding: 10px;
+            border-radius: 44px;
+            font-family: 'Montserrat', sans-serif;
+            border: 2px solid #0058b0;
+        }
+        textarea{
+            width: 800px;
+            margin-top: 20px;
+            padding: 40px;
+            border-radius: 44px;
+            font-family: 'Montserrat', sans-serif;
+            border: 2px solid #0058b0;
+        }
+        .observacoes label {
+            font-size: 20px;
+            color: #8ed0f9;
+        }
+        .img{
+            text-align: center;
+        }
+        .img img{
+            width: 1200px;
+            margin-top: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h1>Atividade Tecnolgias Web</h1>
+        <p>por Felipe Mauro Estival</p>
+    </div>
+    <div class="bloco01">
+        <h2>Transforme <br>cada metro em <br><span style="color: #02273c;">conquista.</span></h2>
+    </div>
+    <div class="img">
+        <img src="Agrupar 2.png" alt="Imagens nadadores">
+    </div>
+    <div class="textinho">
+        <h2>Competições de natação
+            <br> para todas as idades!</h2>
+    </div>
+    <div>
+        <div class="formcaixa">
+            <div class="formtexto">
+                <h2>Formulário de inscrição:</h2>
+            </div>
+            <div class="designinscricao">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+                <label for="nome">Sobrenome</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="designinscricao">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha">
+            </div>
+            <div class="designinscricao">
+                <label for="idade">Data de nascimento</label>
+                <input type="date" id="idade">
+            </div>
+            <div class="designinscricao">
+                <form class="genero">
+                    <p><STRONg>GÊNERO:</STRONg></p>
+
+                    <label>
+                        <input type="radio" name="genero" value="feminino">
+                        Feminino
+                    </label>
+
+                    <label>
+                        <input type="radio" name="genero" value="masculino">
+                        Masculino
+                    </label>
+                </form>
+                <div class="designinscricao">
+                    <form>
+                        <label for="estado">Selecione seu estado:</label>
+                        <select id="estado" name="estado">
+                            <option value="">-- Escolha seu estado --</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="designinscricao">
+                    <form class="sla">
+                        <p>Escolha a(s) prova(s) que deseja participar:</p>
+
+                        <label>
+                            <input type="checkbox" name="prova" value="500m">
+                            500m
+                        </label><br>
+
+                        <label>
+                            <input type="checkbox" name="prova" value="1000m">
+                            1000m
+                        </label><br>
+
+                        <label>
+                            <input type="checkbox" name="prova" value="2000m">
+                            2000m
+                        </label><br>
+
+                        <label>
+                            <input type="checkbox" name="prova" value="3000m">
+                            3000m
+                        </label>
+                    </form>
+                </div>
+                <div class="designinscricao">
+                    <form class="observacoes">
+                        <label for="observacoes"><strong>OBSERVAÇÕES:</strong></label><br>
+                        <textarea id="observacoes" name="observacoes" rows="4" cols="50"
+                            placeholder="Digite aqui suas observações..."></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
